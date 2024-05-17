@@ -1,3 +1,5 @@
+import { registrarPersona } from "./promesas.js";
+
 window.addEventListener("load",()=>{
     document.getElementById("btnRegistrar").addEventListener("click",registrar);
 });
@@ -10,4 +12,5 @@ const registrar = ()=>{
     // Crear un objeto
     let objeto = {nombre:vNombre};
     console.log(objeto)
+    registrarPersona(objeto)
 }
