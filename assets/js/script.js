@@ -12,5 +12,10 @@ const registrar = ()=>{
     // Crear un objeto
     let objeto = {nombre:vNombre};
     console.log(objeto)
-    registrarPersona(objeto)
+    registrarPersona(objeto).then(()=>{
+        alert("Registrado con éxito")
+    }).catch((r)=>{
+        alert("Algo ocurrio")
+        alert(r);
+    });
 }
