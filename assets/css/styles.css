@@ -19,7 +19,6 @@ input{
 form{
     margin: auto;
     width: 50%;
-    text-align: center;
     background-color: burlywood;
 }
 
@@ -27,6 +26,5 @@ button{
     margin: auto;
     margin-top: 5px;
     width: 20%;
-    text-align: center;
     display: block;
 }
